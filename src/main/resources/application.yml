@@ -19,3 +19,7 @@ server:
 wechat:
   mpAppId: wxd898fcb01713c658
   mpAppSecret: 29d8a650db31472aa87800e3b0d739f2
+  mchId: 1483469312
+  mchKey: 06C56A89949D617xxxxxxxxxxx
+  keyPath: /var/weixin_cert/h5.p12                #证书路径
+  notifyUrl: http://sell.natapp4.cc/sell/pay/notify #微信支付异步通知的地址:如果不配置,那么都不能发起支付

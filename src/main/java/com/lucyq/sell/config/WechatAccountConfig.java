@@ -15,6 +15,31 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "wechat")
 public class WechatAccountConfig {
 
+    /**
+     * 公众号id
+     */
     private String mpAppId;
+    /**
+     * 公众号密钥
+     */
     private String mpAppSecret;
+    /**
+     * 商户号
+     */
+    private String mchId;
+
+    /**
+     * 商户密钥
+     */
+    private String mchKey;
+
+    /**
+     * 商户证书路径
+     */
+    private String keyPath;
+
+    /**
+     * 微信支付异步通知的地址
+     */
+    private String notifyUrl;
 }
